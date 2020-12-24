@@ -1,0 +1,59 @@
+.img_insta {
+  background-image: url(../../img/social_insta.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+
+  -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  -webkit-transform: scale(1.02, 1.02);
+  transform: scale(1.02, 1.02);
+}
+
+a.insta-link {
+  font-size: 14px;
+  color: #164556;
+  padding: 0.3rem;
+  display: inline-flex;
+  &:hover {
+    background-color: #1645561a;
+    text-decoration: none;
+  }
+}
+
+.coming-soon_logo {
+  background-image: url(../../img/logo_large.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+
+  &.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+  }
+}
+
+.coming-soon_insta {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  margin-left: -95.5px;
+  margin-top: 10px;
+  display: inline-grid;
+
+  >span {
+    text-align: center;
+    color: #b7926e;
+    font-size: 14px;
+  }
+}
