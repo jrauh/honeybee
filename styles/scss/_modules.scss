@@ -25,6 +25,17 @@ a.insta-link {
   }
 }
 
+//ICON
+.img_icon--blue {
+  background-image: url(../../img/icon_blue.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
 .coming-soon_logo {
   background-image: url(../../img/logo_large.svg);
   background-repeat: no-repeat;
