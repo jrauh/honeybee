@@ -92,8 +92,12 @@ footer {
 a.insta-link {
   font-size: 14px;
   color: #164556;
+  border: 1px solid #dcd8d6;
   padding: 0.3rem;
-  display: inline-flex; }
+  display: inline-flex;
+  border-radius: 3px;
+  background: #F4F0EE;
+  box-shadow: 5px 5px 10px #dcd8d6, -5px -5px 10px #ffffff; }
   a.insta-link:hover {
     background-color: #1645561a;
     text-decoration: none; }
@@ -126,12 +130,12 @@ a.insta-link {
   position: absolute;
   top: 80%;
   left: 50%;
-  margin-left: -95.5px;
+  margin-left: -93.5px;
   margin-top: 10px;
   display: inline-grid; }
   .coming-soon_insta > span {
     text-align: center;
-    color: #b7926e;
+    color: #164556;
     font-size: 14px; }
 
 .page-width {
